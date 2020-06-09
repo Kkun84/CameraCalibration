@@ -1,0 +1,11 @@
+.vscode/
+.devcontainer/
+__pycache__
+.DS_Store
+
+images/*
+
+*.jpg
+*.jpeg
+*.png
+*.ping
