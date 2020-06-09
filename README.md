@@ -1,4 +1,4 @@
-# 8-point algorithm
+# CameraCalibration
 
 ## Commands
 
@@ -22,16 +22,6 @@ python src/main.py data=???,...??? -m
 ```
 The "data" can be one of the file names in conf/data.
 \
-
 ```
-python src/main.py data=small_depth-same_plane-8,learge_depth-same_plane-8,small_depth-diff_plane-8 -m
-```
-```
-python src/main.py data=small_depth-same_plane-8-predict,learge_depth-same_plane-8-predict,small_depth-diff_plane-8-predict -m
-```
-```
-python src/main.py data=small_depth-same_plane-16,learge_depth-same_plane-16,small_depth-diff_plane-16 -m
-```
-```
-python src/main.py data=small_depth-same_plane-16-predict,learge_depth-same_plane-16-predict,small_depth-diff_plane-16-predict -m
+python src/main.py data=small_depth-same_plane-8,small_depth-same_plane-16,small_depth-same_plane-21,small_depth-same_plane-31 -m
 ```
