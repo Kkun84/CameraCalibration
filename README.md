@@ -20,8 +20,8 @@ or
 ```
 python src/main.py data=???,...??? -m
 ```
-The "data" can be one of the file names in conf/data.
 \
+The "data" can be one of the file names in conf/data.
 ```
 python src/main.py data=small_depth-same_plane-8,small_depth-same_plane-16,small_depth-same_plane-21,small_depth-same_plane-31 -m
 ```
